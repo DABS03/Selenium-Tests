@@ -1,0 +1,321 @@
+{
+  "id": "a778e328-f27a-4307-ba6b-8318f9621b6d",
+  "version": "2.0",
+  "name": "Buggy Cars Rating",
+  "url": "https://buggy.justtestit.org",
+  "tests": [{
+    "id": "bc2c6ed6-8eb2-4cf6-9302-42101073dae8",
+    "name": "Validación Página de Inicio",
+    "commands": [{
+      "id": "b359b897-91dc-4c2a-bd24-a39d30791cd7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a2d6bec-6008-43ff-acd9-a28000361bb0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.input-sm", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b79ed9b-60fe-4175-b379-53643106d7be",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8edf952-bf1c-492a-ac09-f547241b79af",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b533d6c-03d9-4e36-90ae-b6b1d3d98762",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.btn-success-outline", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8936e11-33b6-45db-beee-559f72905ecc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.display-4",
+      "targets": [
+        ["css=.display-4", "css:finder"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a471513d-4389-4a12-a33a-74d695a0ee4c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.center-block > .img-fluid",
+      "targets": [
+        ["css=.center-block > .img-fluid", "css:finder"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "817d30f8-ded4-4da4-8e4b-dfca991f5738",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.col-md-4:nth-child(1) > .card",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) > .card", "css:finder"],
+        ["xpath=//my-home/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaa27740-ba9a-4550-a2a4-80df93501ccc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.col-md-4:nth-child(2) > .card",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) > .card", "css:finder"],
+        ["xpath=//my-home/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01a09d0-c1a9-4d17-ab3b-ea47764c3099",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.col-md-4:nth-child(3) > .card",
+      "targets": [
+        ["css=.col-md-4:nth-child(3) > .card", "css:finder"],
+        ["xpath=//div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67844c6f-fe99-48c1-8345-6560abb856aa",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Buggy Cars Rating",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a382626-572f-4d71-b576-56433cd45f77",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": "Login"
+    }, {
+      "id": "644221b1-61f2-49b2-b803-3ce6fc06eced",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.btn-success-outline", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": "Register"
+    }, {
+      "id": "c5b624a2-4923-49cc-a371-99ddacdcbeed",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [
+        ["css=.display-4", "css:finder"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Buggy\\nCars\\nRating"
+    }]
+  }, {
+    "id": "a540fe7f-0b69-4624-bb5c-06380f38a2a0",
+    "name": "Usuario existente",
+    "commands": [{
+      "id": "8372549c-be5a-4eb2-a11b-11e7384ab442",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "752e0c58-c549-4830-b960-e7e01940eeaa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.btn-success-outline", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9966d9-2da6-4080-98e3-44f399da4923",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72fc0bc8-fd2f-4062-97a7-07ffdecab6ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Diego2"
+    }, {
+      "id": "b5c869d9-3bd0-4404-882d-e8e9de3a6e39",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0f6075-6978-4cf0-935c-3f700798ac1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Diego"
+    }, {
+      "id": "cd2365c4-d07b-4c7f-9039-61d7e9134894",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Burgos"
+    }, {
+      "id": "49273f44-f752-41a6-93cb-d09c4419cf7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Asdfgh1*"
+    }, {
+      "id": "9a77e609-0c8e-4903-ae39-810d4937f57b",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30cbd583-8ff9-43c3-9278-e0aa8f07edd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Asdfgh1*"
+    }, {
+      "id": "e9c2d161-d898-4367-a726-70f1b52795f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0da18873-8b53-4f93-8079-813948b163ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.result",
+      "targets": [
+        ["css=.result", "css:finder"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": "UsernameExistsException: User already exists"
+    }]
+  }],
+  "suites": [{
+    "id": "bf82fa79-3032-46f4-8e49-0d67f9881c12",
+    "name": "Test Suite 1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a540fe7f-0b69-4624-bb5c-06380f38a2a0", "bc2c6ed6-8eb2-4cf6-9302-42101073dae8"]
+  }],
+  "urls": ["https://buggy.justtestit.org/"],
+  "plugins": []
+}
